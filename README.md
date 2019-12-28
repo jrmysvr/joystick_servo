@@ -1,6 +1,8 @@
 # Control a Servo with an ATmega328P MCU.
 
 ![setup](images/top_view.jpg)
+![demo](images/demo.gif)
+![layout](images/layout.png)
 
 ## Install
 Arduino IDE
