@@ -92,11 +92,9 @@ void loop() {
   }
   else {
     rx = analogRead(PIN_RX);
-    ry = analogRead(PIN_RY);
     posX = joystick_to_servo_position(rx);
     posX += posX_offset;
     servoX.write(posX);
-    Serial.println(buf);
     delay(20);
   }
 }
